@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 # shade installer — Linux / macOS
-# curl -fsSL https://raw.githubusercontent.com/TheNeoNovo/Shade/main/install.sh | sh
+# curl -fsSL https://raw.githubusercontent.com/TheNeoNovo/Shadechat/main/install.sh | sh
 
 set -e
-REPO="https://raw.githubusercontent.com/TheNeoNovo/Shade/main"
+REPO="https://raw.githubusercontent.com/TheNeoNovo/Shadechat/main"
 GRN='\033[0;32m'; YEL='\033[0;33m'; MAG='\033[0;35m'; RED='\033[0;31m'; RST='\033[0m'
 ok()   { printf "${GRN}[ok]${RST} %s\n" "$1"; }
 warn() { printf "${YEL}[!] ${RST} %s\n" "$1"; }

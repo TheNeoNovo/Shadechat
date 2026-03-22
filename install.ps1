@@ -1,8 +1,8 @@
 # shade installer — Windows PowerShell
-# irm https://raw.githubusercontent.com/TheNeoNovo/Shade/main/install.ps1 | iex
+# irm https://raw.githubusercontent.com/TheNeoNovo/Shadechat/main/install.ps1 | iex
 
 $ErrorActionPreference = "Stop"
-$REPO = "https://raw.githubusercontent.com/TheNeoNovo/Shade/main"
+$REPO = "https://raw.githubusercontent.com/TheNeoNovo/Shadechat/main"
 
 function Ok   { Write-Host "  [ok] $args" -ForegroundColor Green }
 function Warn { Write-Host "  [!]  $args" -ForegroundColor Yellow }
