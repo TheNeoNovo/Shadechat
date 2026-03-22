@@ -923,7 +923,7 @@ def cmd_help():
 
   Inside a room:
     Ctrl-C             leave
-    Ctrl+\\             PANIC WIPE — zeroes all messages instantly
+    Ctrl+Backslash             PANIC WIPE — zeroes all messages instantly
 
   Security:
     - Double encrypted: ChaCha20 + AES-256-CTR
@@ -975,3 +975,4 @@ def main():
 if __name__ == "__main__":
     try: main()
     except KeyboardInterrupt: print("\nSession ended.")
+
